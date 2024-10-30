@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-D9TFHRBXV8"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<title>Muntz</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="./www_files/muntz-icon-w-apple-touch.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./www_files/muntz-icon-w-32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./www_files/muntz-icon-w-16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<meta name="description" content="Está subiendo la marea">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="og:title" content="Muntz">
+	<meta property="og:site_name" content="Muntz" />
+	<meta property="og:description" content="Está subiendo la marea">
+	<meta property="og:url" content="https://muntz.es">
+	<meta property="og:image" content="./2024_files/media/logo-oceano.jpg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="629">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="es_es">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap" rel="stylesheet">
+	<link href="2024_files/index.css" rel="stylesheet">
+</head>
+<body>
+	<div id="preloader">
+		<div id="loader-text">0%</div>
+		<noscript>
+		  <div style="background-color: #f00; color: #fff; text-align: center; padding: 10px;">
+			JavaScript está deshabilitado en tu navegador. Puede que la página no funcione.
+		  </div>
+		</noscript>
+	</div>
+	<div id="ripple" style="height: 100%; background: url('2024_files/media/mar.jpg') left top / cover;">
+		<span class="translucid"></span>
+		<h1 class="unselectable" id="title">
+			<img class="bandText" src="2024_files/media/muntzlogo.png" alt="MUNTZ"></img><br>
+			<span class="albumText" id="bunny">PLEAMAR</span><br>
+			<span class="releaseDate">2024</span>
+		</h1>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="position: absolute;" target="blank">
+			<img class="unselectable" id="easter-egg" src="2024_files/media/play.svg" alt="play">
+		</a>
+		<img class="unselectable" id="sound-icon" src="2024_files/media/sound-off.svg" alt="Sound Off">
+	</div>
+	<audio id="background-audio" src="2024_files/media/sonar.mp3"></audio>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+	  if (typeof jQuery == 'undefined') {
+		document.write('<script src="2024_files/js/jquery.min.js"><\/script>');
+	  }
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery.ripples@0.6.3/dist/jquery.ripples.min.js"></script>
+    <script>
+        // Si el script del CDN falla, carga la versión local
+        if (typeof $.fn.ripples === 'undefined') {
+            var script = document.createElement('script');
+            script.src = '2024_files/js/jquery.ripples.min.js';
+            document.head.appendChild(script);
+        }
+    </script>
+	<script src="2024_files/js/script.js"></script>
+	<!-- HTML: Banner de Consentimiento de Cookies -->
+	<div id="cookie-banner" style="display: none; position: fixed; bottom: 0; width: 100%; background: rgba(0, 0, 0, 0.8); color: white; padding: 10px; text-align: center; z-index: 1000;">
+		<span>Este sitio utiliza cookies para mejorar tu experiencia. Al continuar navegando, aceptas nuestro uso de cookies. 
+		<a href="/cookies" style="color: #c1c1c1;" target="blank">Saber más</a></span>
+		<button id="accept-cookies" style="background: #c1c1c1; border: none; color: black; padding: 5px 10px; margin-left: 20px; cursor: pointer;">Aceptar</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad y Cookies</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, h4 {
+            color: #0056b3;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2, h3 {
+            margin-top: 20px;
+        }
+
+        p, ul {
+            margin: 15px 0;
+            padding: 0 20px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        ul li::before {
+            content: "• ";
+            color: #0056b3;
+            font-weight: bold;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .last-updated {
+            text-align: right;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Política de Privacidad y Cookies</h1>
+        <p class="last-updated">Última actualización: 13 de agosto de 2024</p>
+        <p>Esta Política de Privacidad describe nuestras políticas y procedimientos sobre la recopilación, uso y
+            divulgación de su información cuando utiliza el Servicio y le informa sobre sus derechos de privacidad y
+            cómo la ley le protege.</p>
+        <p>Utilizamos sus datos personales para proporcionar y mejorar el Servicio. Al usar el Servicio, usted acepta
+            la recopilación y el uso de la información de acuerdo con esta Política de Privacidad. Esta Política de
+            Privacidad se ha creado con la ayuda del <a
+                href="https://www.termsfeed.com/privacy-policy-generator/" target="_blank">Generador de Políticas de
+                Privacidad</a>.</p>
+
+        <h2>Interpretación y Definiciones</h2>
+
+        <h3>Interpretación</h3>
+        <p>Las palabras cuya letra inicial está en mayúscula tienen significados definidos bajo las siguientes
+            condiciones. Las siguientes definiciones tendrán el mismo significado independientemente de si aparecen en
+            singular o en plural.</p>
+
+        <h3>Definiciones</h3>
+        <p>A efectos de esta Política de Privacidad:</p>
+        <ul>
+            <li>
+                <p><strong>Cuenta:</strong> significa una cuenta única creada para que usted acceda a nuestro Servicio
+                    o a partes de nuestro Servicio.</p>
+            </li>
+            <li>
+                <p><strong>Afiliado:</strong> significa una entidad que controla, es controlada por o está bajo el
+                    control común de una parte, donde "control" significa propiedad del 50% o más de las acciones,
+                    participación accionaria u otros valores con derecho a voto para la elección de directores u otra
+                    autoridad administrativa.</p>
+            </li>
+            <li>
+                <p><strong>Compañía:</strong> (referida como "la Compañía", "Nosotros", "Nos" o "Nuestro" en este
+                    Acuerdo) se refiere a Muntz.</p>
+            </li>
+            <li>
+                <p><strong>Cookies:</strong> son pequeños archivos que se colocan en su computadora, dispositivo móvil
+                    o cualquier otro dispositivo por un sitio web, que contienen los detalles de su historial de
+                    navegación en ese sitio web entre sus muchos usos.</p>
+            </li>
+            <li>
+                <p><strong>País:</strong> se refiere a: España</p>
+            </li>
+            <li>
+                <p><strong>Dispositivo:</strong> significa cualquier dispositivo que pueda acceder al Servicio, como
+                    una computadora, un teléfono móvil o una tableta digital.</p>
+            </li>
+            <li>
+                <p><strong>Datos Personales:</strong> es cualquier información que se relacione con un individuo
+                    identificado o identificable.</p>
+            </li>
+            <li>
+                <p><strong>Servicio:</strong> se refiere al sitio web.</p>
+            </li>
+            <li>
+                <p><strong>Proveedor de Servicios:</strong> significa cualquier persona física o jurídica que procese
+                    los datos en nombre de la Compañía. Se refiere a empresas o individuos terceros empleados por la
+                    Compañía para facilitar el Servicio, proporcionar el Servicio en nombre de la Compañía, realizar
+                    servicios relacionados con el Servicio o asistir a la Compañía en el análisis de cómo se utiliza el
+                    Servicio.</p>
+            </li>
+            <li>
+                <p><strong>Datos de Uso:</strong> se refiere a los datos recopilados automáticamente, ya sea
+                    generados por el uso del Servicio o de la propia infraestructura del Servicio (por ejemplo, la
+                    duración de una visita a la página).</p>
+            </li>
+            <li>
+                <p><strong>Sitio Web:</strong> se refiere a Muntz, accesible desde <a href="https://muntz.es"
+                        rel="external nofollow noopener" target="_blank">https://muntz.es</a></p>
+            </li>
+            <li>
+                <p><strong>Usted:</strong> significa el individuo que accede o utiliza el Servicio, o la empresa u
+                    otra entidad legal en nombre de la cual dicho individuo está accediendo o utilizando el Servicio,
+                    según sea aplicable.</p>
+            </li>
+        </ul>
+
+        <h2>Recopilación y Uso de sus Datos Personales</h2>
+
+        <h3>Tipos de Datos Recopilados</h3>
+
+        <h4>Datos Personales</h4>
+        <p>Al utilizar nuestro Servicio, podemos solicitarle que nos proporcione cierta información de identificación
+            personal que puede usarse para contactarlo o identificarlo. La información de identificación personal puede
+            incluir, entre otros:</p>
+        <ul>
+            <li>Datos de Uso</li>
+        </ul>
+
+        <h4>Datos de Uso</h4>
+        <p>Los Datos de Uso se recopilan automáticamente al utilizar el Servicio.</p>
+        <p>Los Datos de Uso pueden incluir información como la dirección del Protocolo de Internet de su dispositivo
+            (por ejemplo, dirección IP), tipo de navegador, versión del navegador, las páginas de nuestro Servicio que
+            visita, la hora y fecha de su visita, el tiempo dedicado a esas páginas, identificadores únicos de
+            dispositivos y otros datos de diagnóstico.</p>
+        <p>Cuando accede al Servicio a través de un dispositivo móvil, podemos recopilar cierta información
+            automáticamente, que incluye, entre otros, el tipo de dispositivo móvil que utiliza, su ID único de
+            dispositivo móvil, la dirección IP de su dispositivo móvil, su sistema operativo móvil, el tipo de
+            navegador de Internet móvil que utiliza, identificadores únicos de dispositivos y otros datos de
+            diagnóstico.</p>
+        <p>También podemos recopilar información que su navegador envía cada vez que visita nuestro Servicio o cuando
+            accede al Servicio a través de un dispositivo móvil.</p>
+
+        <h4>Tecnologías de Seguimiento y Cookies</h4>
+        <p>Utilizamos cookies y tecnologías de seguimiento similares para rastrear la actividad en nuestro Servicio y
+            almacenar cierta información. Las tecnologías de seguimiento utilizadas son balizas, etiquetas y scripts
+            para recopilar y rastrear información y para mejorar y analizar nuestro Servicio. Las tecnologías que
+            utilizamos pueden incluir:</p>
+        <ul>
+            <li><strong>Cookies o Cookies de Navegador.</strong> Una cookie es un pequeño archivo colocado en su
+                dispositivo. Puede indicarle a su navegador que rechace todas las cookies o que indique cuándo se está
+                enviando una cookie. Sin embargo, si no acepta las cookies, es posible que no pueda utilizar algunas
+                partes de nuestro Servicio. A menos que haya ajustado la configuración de su navegador para que rechace
+                las cookies, nuestro Servicio puede utilizar cookies.</li>
+            <li><strong>Balizas web.</strong> Ciertas secciones de nuestro Servicio y nuestros correos electrónicos
+                pueden contener pequeños archivos electrónicos conocidos como balizas web (también denominadas gifs
+                claros, etiquetas de píxeles y gifs de un solo píxel) que permiten a la Compañía, por ejemplo, contar
+                los usuarios que han visitado esas páginas o abierto un correo electrónico y para otras estadísticas
+                relacionadas con el sitio web (por ejemplo, registrar la popularidad de una determinada sección y
+                verificar la integridad del sistema y del servidor).</li>
+        </ul>
+        <p>Las cookies pueden ser cookies "persistentes" o "de sesión". Las cookies persistentes permanecen en su
+            computadora personal o dispositivo móvil cuando se desconecta, mientras que las cookies de sesión se
+            eliminan tan pronto como cierra su navegador web. Puede obtener más información sobre las cookies aquí: <a
+                href="https://www.termsfeed.com/blog/cookies/#What_Are_Cookies"
+                target="_blank">¿Qué son las cookies?</a>.</p>
+        <p>Utilizamos cookies de sesión y persistentes para los fines que se detallan a continuación:</p>
+
+        <ul>
+            <li>
+                <p><strong>Cookies Necesarias / Esenciales</strong></p>
+                <p>Tipo: Cookies de sesión</p>
+                <p>Administrado por: Nosotros</p>
+                <p>Propósito: Estas cookies son esenciales para proporcionarle los servicios disponibles a través del
+                    sitio web y para permitirle utilizar algunas de sus funciones. Ayudan a autenticar a los usuarios y
+                    prevenir el uso fraudulento de las cuentas de usuario. Sin estas cookies, no se pueden
+                    proporcionar los servicios que ha solicitado, y solo utilizamos estas cookies para proporcionarle
+                    esos servicios.</p>
+            </li>
+            <li>
+                <p><strong>Cookies de Funcionalidad</strong></p>
+                <p>Tipo: Cookies persistentes</p>
+                <p>Administrado por: Nosotros</p>
+                <p>Propósito: Estas cookies nos permiten recordar las elecciones que hace cuando utiliza el sitio web,
+                    como recordar sus datos de inicio de sesión o preferencia de idioma. El propósito de estas cookies
+                    es brindarle una experiencia más personal y evitar que tenga que volver a ingresar sus
+                    preferencias cada vez que utiliza el sitio web.</p>
+            </li>
+            <li>
+                <p><strong>Cookies de Seguimiento y Rendimiento</strong></p>
+                <p>Tipo: Cookies persistentes</p>
+                <p>Administrado por: Terceros</p>
+                <p>Propósito: Estas cookies se utilizan para rastrear información sobre el tráfico al sitio web y cómo
+                    los usuarios utilizan el sitio web. La información recopilada a través de estas cookies puede
+                    identificarlo directa o indirectamente como visitante individual. Esto se debe a que la
+                    información recopilada generalmente está vinculada a un identificador seudónimo asociado con el
+                    dispositivo que utiliza para acceder al sitio web. También podemos utilizar estas cookies para
+                    probar nuevas páginas, características o nuevas funcionalidades del sitio web para ver cómo
+                    reaccionan nuestros usuarios.</p>
+            </li>
+        </ul>
+
+        <h2>Uso de sus Datos Personales</h2>
+        <p>La Compañía puede utilizar los Datos Personales para los siguientes fines:</p>
+        <ul>
+            <li>
+                <p><strong>Para proporcionar y mantener nuestro Servicio</strong>, incluidos el monitoreo del uso de
+                    nuestro Servicio.</p>
+            </li>
+            <li>
+                <p><strong>Para gestionar su cuenta:</strong> para gestionar su registro como usuario del Servicio. Los
+                    Datos Personales que proporcione pueden darle acceso a diferentes funcionalidades del Servicio que
+                    están disponibles para usted como usuario registrado.</p>
+            </li>
+            <li>
+                <p><strong>Para la ejecución de un contrato:</strong> el desarrollo, cumplimiento y realización del
+                    contrato de compra de los productos, artículos o servicios que ha adquirido o de cualquier otro
+                    contrato con nosotros a través del Servicio.</p>
+            </li>
+            <li>
+                <p><strong>Para contactarlo:</strong> para contactarlo por correo electrónico, llamadas telefónicas,
+                    SMS u otras formas equivalentes de comunicación electrónica, como las notificaciones push de una
+                    aplicación móvil sobre actualizaciones o comunicaciones informativas relacionadas con las
+                    funcionalidades, productos o servicios contratados, incluidas las actualizaciones de seguridad,
+                    cuando sea necesario o razonable para su implementación.</p>
+            </li>
+            <li>
+                <p><strong>Para proporcionarle noticias, ofertas especiales e información general sobre otros bienes,
+                        servicios y eventos que ofrecemos que son similares a los que ya compró o sobre los que
+                        preguntó, a menos que haya optado por no recibir dicha información.</strong></p>
+            </li>
+            <li>
+                <p><strong>Para gestionar sus solicitudes:</strong> para atender y gestionar sus solicitudes hacia
+                    nosotros.</p>
+            </li>
+            <li>
+                <p><strong>Para transferencias comerciales:</strong> Podemos usar su información para evaluar o realizar
+                    una fusión, desinversión, reestructuración, reorganización, disolución u otra venta o transferencia
+                    de algunos o todos nuestros activos, ya sea como negocio en marcha o como parte de una bancarrota,
+                    liquidación o procedimiento similar, en el que los Datos Personales que tenemos sobre los usuarios
+                    de nuestro Servicio están entre los activos transferidos.</p>
+            </li>
+            <li>
+                <p><strong>Para otros fines:</strong> Podemos utilizar su información para otros fines, como análisis de
+                    datos, identificación de tendencias de uso, determinación de la efectividad de nuestras campañas
+                    promocionales y para evaluar y mejorar nuestro Servicio, productos, servicios, marketing y su
+                    experiencia.</p>
+            </li>
+        </ul>
+
+        <h2>Retención de sus Datos Personales</h2>
+        <p>La Compañía retendrá sus Datos Personales solo durante el tiempo que sea necesario para los fines
+            establecidos en esta Política de Privacidad. Retendremos y utilizaremos sus Datos Personales en la medida
+            necesaria para cumplir con nuestras obligaciones legales (por ejemplo, si se nos requiere conservar sus
+            datos para cumplir con las leyes aplicables), resolver disputas y hacer cumplir nuestros acuerdos y
+            políticas legales.</p>
+        <p>La Compañía también retendrá los Datos de Uso para fines de análisis interno. Los Datos de Uso generalmente
+            se retienen por un período de tiempo más corto, excepto cuando estos datos se utilizan para fortalecer la
+            seguridad o mejorar la funcionalidad de nuestro Servicio, o si estamos legalmente obligados a retener estos
+            datos por períodos de tiempo más largos.</p>
+
+        <h2>Transferencia de sus Datos Personales</h2>
+        <p>Su información, incluidos los Datos Personales, se procesa en las oficinas operativas de la Compañía y en
+            cualquier otro lugar donde se encuentren las partes involucradas en el procesamiento. Significa que esta
+            información puede transferirse a —y mantenerse en— computadoras ubicadas fuera de su estado, provincia,
+            país u otra jurisdicción gubernamental donde las leyes de protección de datos pueden diferir de las de su
+            jurisdicción.</p>
+        <p>Su consentimiento a esta Política de Privacidad seguido de su envío de dicha información representa su
+            aceptación de esa transferencia.</p>
+        <p>La Compañía tomará todas las medidas razonablemente necesarias para garantizar que sus datos sean tratados
+            de manera segura y de acuerdo con esta Política de Privacidad y no se realizará ninguna transferencia de
+            sus Datos Personales a una organización o un país a menos que existan controles adecuados, incluidos la
+            seguridad de sus datos y otra información personal.</p>
+
+        <h2>Divulgación de sus Datos Personales</h2>
+
+        <h3>Transacciones comerciales</h3>
+        <p>Si la Compañía participa en una fusión, adquisición o venta de activos, sus Datos Personales pueden ser
+            transferidos. Le notificaremos antes de que sus Datos Personales sean transferidos y queden sujetos a una
+            Política de Privacidad diferente.</p>
+
+        <h3>Aplicación de la ley</h3>
+        <p>En ciertas circunstancias, es posible que la Compañía deba divulgar sus Datos Personales si así lo requiere
+            la ley o en respuesta a solicitudes válidas de autoridades públicas (por ejemplo, un tribunal o una agencia
+            gubernamental).</p>
+
+        <h3>Otros requisitos legales</h3>
+        <p>La Compañía puede divulgar sus Datos Personales en la creencia de buena fe de que dicha acción es necesaria
+            para:</p>
+        <ul>
+            <li>Cumplir con una obligación legal</li>
+            <li>Proteger y defender los derechos o propiedad de la Compañía</li>
+            <li>Prevenir o investigar posibles infracciones en relación con el Servicio</li>
+            <li>Proteger la seguridad personal de los usuarios del Servicio o del público</li>
+            <li>Protegerse contra la responsabilidad legal</li>
+        </ul>
+
+        <h2>Seguridad de sus Datos Personales</h2>
+        <p>La seguridad de sus Datos Personales es importante para nosotros, pero recuerde que ningún método de
+            transmisión a través de Internet o método de almacenamiento electrónico es 100% seguro. Si bien nos
+            esforzamos por utilizar medios comercialmente aceptables para proteger sus Datos Personales, no podemos
+            garantizar su seguridad absoluta.</p>
+
+        <h2>Enlaces a otros Sitios Web</h2>
+        <p>Nuestro Servicio puede contener enlaces a otros sitios web que no son operados por nosotros. Si hace clic en
+            un enlace de terceros, será dirigido al sitio de ese tercero. Le recomendamos encarecidamente que revise la
+            Política de Privacidad de cada sitio que visite.</p>
+        <p>No tenemos control ni asumimos responsabilidad alguna por el contenido, las políticas de privacidad o las
+            prácticas de los sitios o servicios de terceros.</p>
+
+        <h2>Cambios a esta Política de Privacidad</h2>
+        <p>Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos cualquier cambio
+            publicando la nueva Política de Privacidad en esta página.</p>
+        <p>Le informaremos a través de correo electrónico y/o un aviso destacado en nuestro Servicio, antes de que el
+            cambio entre en vigencia y actualizaremos la fecha de "Última actualización" en la parte superior de esta
+            Política de Privacidad.</p>
+        <p>Se le recomienda revisar esta Política de Privacidad periódicamente para cualquier cambio. Los cambios a
+            esta Política de Privacidad son efectivos cuando se publican en esta página.</p>
+
+        <h2>Contáctenos</h2>
+        <p>Si tiene alguna pregunta sobre esta Política de Privacidad, puede contactarnos:</p>
+        <ul>
+        <li>Por correo electrónico: <a href="mailto:contacto@muntz.es" rel="mailto">contacto@muntz.es</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
