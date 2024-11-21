@@ -35,13 +35,22 @@
         <div class="content">
             <img class="title" src="2024_files/media/efdi.png" alt="El Frío del Invierno">
 		    <img class="unselectable" id="sound-icon" src="2024_files/media/sound-off.svg" alt="Sound Off">
-        </div>
-        <div class="botones">
-            <button class="btnSpotify" type="button"><span><a href="https://open.spotify.com/intl-es/artist/4r8sQFACB010CoU30E9yio?si=eOrsHf7nR8qeKzpFtRyJ2g" target="_blank">Spotify</a></span></button>
-            <button class="btnYoutube" type="button"><span><a href="https://youtube.com/muntzband" target="_blank">Youtube</a></span></button>
-            <button class="btnInstagram" type="button"><span><a href="https://instagram.com/muntzband" target="_blank">Instagram</a></span></button>
-        </div>
-        
+        </div><div class="botones">
+			<button class="btnSpotify" type="button"><span><a id="linkSpotify" href="https://open.spotify.com/intl-es/artist/4r8sQFACB010CoU30E9yio?si=eOrsHf7nR8qeKzpFtRyJ2g" target="_blank">Spotify</a></span></button>
+			<button class="btnYoutube" type="button"><span><a id="linkYoutube" href="https://www.youtube.com/muntzband" target="_blank">Youtube</a></span></button>
+			<button class="btnInstagram" type="button"><span><a id="linkInstagram" href="https://www.instagram.com/muntzband" target="_blank">Instagram</a></span></button>
+		</div>
+		<script>
+			document.addEventListener("DOMContentLoaded", function () {
+				const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+				const isMobile = /android|iphone|ipad|ipod|windows phone/i.test(userAgent);
+				if (isMobile) {
+					document.getElementById("linkSpotify").href = "spotify://open.spotify.com/artist/4r8sQFACB010CoU30E9yio";
+					document.getElementById("linkYoutube").href = "youtube://youtube.com/muntzband";
+					document.getElementById("linkInstagram").href = "instagram://instagram.com/muntzband";
+				}
+			});
+		</script>
     </div>
     <audio id="background-audio" src="2024_files/media/sonar.mp3"></audio>
     <audio id="intro-audio" src="2024_files/media/efdi.mp3"></audio>
