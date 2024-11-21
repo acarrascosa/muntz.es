@@ -1,5 +1,6 @@
 $(document).ready(function() {
     var audio = document.getElementById('background-audio');
+    var intro = document.getElementById('intro-audio');
     var soundIcon = document.getElementById('sound-icon');
     var isPlaying = false;
 
@@ -41,7 +42,13 @@ $(document).ready(function() {
     var imagesTotalCount = images.length;
     var imagesLoadedCount = 0;
     var percDisplay = 0;
-    var content = document.getElementById('banner');
+    var content = document.querySelector('.banner');
+    var title = document.querySelector('.title');
+    var botones = document.querySelector('.botones');
+    var btnSpotify = document.querySelector('.btnSpotify');
+    var btnYoutube = document.querySelector('.btnYoutube');
+    var btnInstagram = document.querySelector('.btnInstagram');
+    var btnEnter = document.querySelector('.btnEnter');
 
     var imagePromises = Array.from(images).map(function(img) {
         return new Promise(function(resolve, reject) {
@@ -62,15 +69,35 @@ $(document).ready(function() {
     Promise.all(imagePromises).then(function() {
         preloader.classList.add('fade-out');
         setTimeout(function() {
-            content.classList.add('fade-in');
-            preloader.style.display = 'none';
+            loaderText.style.display = 'none';
+            btnEnter.style.display = 'block';
+            preloader.classList.add('fade-in');
         }, 1000);
     }).catch(function(error) {
-        console.error(error);
-		preloader.classList.add('fade-out');
-        setTimeout(function() {
+    });
+
+    btnEnter.addEventListener('click', function () {
+        preloader.classList.add('fade-out');
+        setTimeout(function () {
+            intro.play();
             content.classList.add('fade-in');
             preloader.style.display = 'none';
+            setTimeout(function () {
+                title.classList.add('fade-in');
+                setTimeout(function () {
+                    title.classList.add('title-small');
+                    botones.classList.add('show');
+                    setTimeout(function () {
+                        btnSpotify.classList.add('show');
+                        setTimeout(function () {
+                            btnYoutube.classList.add('show');
+                            setTimeout(function () {
+                                btnInstagram.classList.add('show');
+                            }, 500);
+                        }, 500);
+                    }, 500);
+                }, 3000);
+            }, 5000);
         }, 1000);
     });
 

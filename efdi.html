@@ -27,17 +27,24 @@
 	<link href="2024_files/efdi.css" rel="stylesheet">
 </head>
 <body>
-    <div id="preloader">
+    <div class="preloader" id="preloader">
 		<div id="loader-text">0%</div>
+        <button class="btnEnter" type="button" style="display: none;"><span>Entrar</span></button>
 	</div>
     <div class="banner">
         <div class="content">
-            <div class="title">MUNTZ</div>
-            <p>El Frío del Invierno</p>
+            <img class="title" src="2024_files/media/efdi.png" alt="El Frío del Invierno">
 		    <img class="unselectable" id="sound-icon" src="2024_files/media/sound-off.svg" alt="Sound Off">
         </div>
+        <div class="botones">
+            <button class="btnSpotify" type="button"><span>Spotify</span></button>
+            <button class="btnYoutube" type="button"><span>YouTube</span></button>
+            <button class="btnInstagram" type="button"><span>Instagram</span></button>
+        </div>
+        
     </div>
     <audio id="background-audio" src="2024_files/media/sonar.mp3"></audio>
+    <audio id="intro-audio" src="2024_files/media/efdi.mp3"></audio>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="2024_files/js/jquery.min.js"></script>
 	<script src="2024_files/js/efdi.js"></script>
