@@ -402,6 +402,8 @@ a {
 	}
 	.banner .content .title {
 		width: 120vw;
+		position: absolute;
+		top: 4rem;
 	}
 	.banner .content .title.title-small {
 		width: 120vw;

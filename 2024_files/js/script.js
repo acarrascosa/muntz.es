@@ -1,15 +1,15 @@
 $(document).ready(function() {
     // Inicializa ripples
-    $('#ripple').ripples({
-        resolution: 512,
-        dropRadius: 20,
-        perturbance: 0.01,
-    });
+    // $('#ripple').ripples({
+    //     resolution: 512,
+    //     dropRadius: 20,
+    //     perturbance: 0.01,
+    // });
 
-    setTimeout(function() {
-        // Genera un efecto de agua en el centro de la pantalla
-        $('#ripple').ripples('drop', window.innerWidth / 2, window.innerHeight / 2, 20, 0.1);
-    }, 8000); // Delay para asegurarse de que la página haya terminado de cargar
+    // setTimeout(function() {
+    //     // Genera un efecto de agua en el centro de la pantalla
+    //     $('#ripple').ripples('drop', window.innerWidth / 2, window.innerHeight / 2, 20, 0.1);
+    // }, 8000); // Delay para asegurarse de que la página haya terminado de cargar
 
     var audio = document.getElementById('background-audio');
     var soundIcon = document.getElementById('sound-icon');
@@ -166,37 +166,3 @@ document.addEventListener('touchmove', function (e) {
         e.preventDefault(); // Deshabilitar el zoom por pellizco
     }
 }, { passive: false });
-
-// JavaScript: Manejo del Consentimiento de Cookies
-document.addEventListener("DOMContentLoaded", function() {
-    var cookieBanner = document.getElementById('cookie-banner');
-    var acceptCookiesButton = document.getElementById('accept-cookies');
-
-    // Comprueba si el usuario ya ha aceptado las cookies
-    if (!localStorage.getItem('cookiesAccepted')) {
-        cookieBanner.style.display = 'block';
-    }
-
-    acceptCookiesButton.addEventListener('click', function() {
-        // Oculta el banner y almacena el consentimiento en localStorage
-        cookieBanner.style.display = 'none';
-        localStorage.setItem('cookiesAccepted', 'true');
-
-        // Aquí puedes habilitar Google Analytics o cualquier otra función relacionada con cookies
-        enableGoogleAnalytics();
-    });
-
-    function enableGoogleAnalytics() {
-        // Activa Google Analytics solo si el usuario ha dado su consentimiento
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-D9TFHRBXV8'); // Reemplaza con tu ID de seguimiento
-    }
-
-    // Activa Google Analytics inmediatamente si el consentimiento ya fue dado anteriormente
-    if (localStorage.getItem('cookiesAccepted')) {
-        enableGoogleAnalytics();
-    }
-});
-
