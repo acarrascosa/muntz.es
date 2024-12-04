@@ -124,6 +124,8 @@ a {
 	font-size: 6em;
 	width: 35vw;
 	margin: 3rem;
+	-webkit-filter: drop-shadow(0 0 1rem rgb(255, 255, 255));
+    filter: drop-shadow(0 0 1rem rgb(255, 255, 255));
 	transition: all 0.5s ease-in-out;
 }
 
