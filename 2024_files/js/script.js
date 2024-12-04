@@ -54,9 +54,9 @@ $(document).ready(function() {
 	
 	bunny.addEventListener('click', function() {
         if (!easterEggShown) {
-			if (counter >= 5) {
+			if (counter >= 1) {
 				easterEggShown = true;
-				easterEgg.style.display = 'block';
+				// easterEgg.style.display = 'block';
 				easterEgg.style.opacity = '0.7';
 				// Modificar estilos de h1 y .bandText
 				var h1Element = document.querySelector('h1');
@@ -67,15 +67,11 @@ $(document).ready(function() {
 				
 				bandText.style.opacity = '0.8';
 
-				// Reproducir sonido
-				if (isPlaying) {
-					beepSound.play();
-				}
+				beepSound.play();
 			} else {
 				counter++;
 			}
         } else {
-			// Reproducir sonido
 			if (isPlaying) {
 				beepSound.play();
 			}
