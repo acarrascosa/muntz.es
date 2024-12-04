@@ -12,11 +12,11 @@
 @media (max-width: 1199px) {
     .side-menu {
         width: 100vw;
-        max-width: 20rem;
+        /* max-width: 20rem; */
 		background: #000;
     }
     .side-menu.open {
-        max-width: 21rem;
+        /* max-width: 21rem; */
     }
 
 	.menu-button {
