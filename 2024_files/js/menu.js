@@ -16,6 +16,16 @@ menuButton.addEventListener('click', () => {
     }
 });
 
+document.addEventListener('gesturestart', function (e) {
+    e.preventDefault(); // Deshabilitar el zoom por gesto
+});
+
+document.addEventListener('touchmove', function (e) {
+    if (e.scale !== 1) { 
+        e.preventDefault(); // Deshabilitar el zoom por pellizco
+    }
+}, { passive: false });
+
 document.addEventListener("DOMContentLoaded", function() {
     // Detectar si el dispositivo es móvil
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;

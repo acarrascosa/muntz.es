@@ -94,16 +94,6 @@ $(document).ready(function() {
 
 });
 
-document.addEventListener('gesturestart', function (e) {
-    e.preventDefault(); // Deshabilitar el zoom por gesto
-});
-
-document.addEventListener('touchmove', function (e) {
-    if (e.scale !== 1) { 
-        e.preventDefault(); // Deshabilitar el zoom por pellizco
-    }
-}, { passive: false });
-
 // JavaScript: Manejo del Consentimiento de Cookies
 document.addEventListener("DOMContentLoaded", function() {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
