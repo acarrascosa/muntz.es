@@ -99,9 +99,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const userAgent = navigator.userAgent || navigator.vendor || window.opera;
     const isMobile = /android|iphone|ipad|ipod|windows phone/i.test(userAgent);
     if (isMobile) {
-        document.getElementById("linkSpotify").href = "spotify:artist:4r8sQFACB010CoU30E9yio";
-        document.getElementById("linkYoutube").href = "youtube://youtube.com/muntzband";
-        document.getElementById("linkInstagram").href = "instagram://user?username=muntzband";
+        // document.getElementById("linkSpotify").href = "spotify:artist:4r8sQFACB010CoU30E9yio";
+        document.getElementById("linkEfdi").href = "spotify:track:5Rt6EXjUzzhcQKeDTsN811";
+        // document.getElementById("linkYoutube").href = "youtube://youtube.com/muntzband";
+        // document.getElementById("linkInstagram").href = "instagram://user?username=muntzband";
     }
 });
 
