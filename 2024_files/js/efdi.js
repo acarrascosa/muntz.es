@@ -115,7 +115,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-// Fecha de destino
 const targetDate = new Date("2024-12-13T00:00:00").getTime();
 
 // Actualizar cada segundo
@@ -138,7 +137,9 @@ const countdownInterval = setInterval(() => {
     // Detener cuando llegue a 0
     if (timeLeft < 0) {
         clearInterval(countdownInterval);
-        document.getElementById("countdown").textContent = "¡Evento iniciado!";
+        document.querySelector(".countdown").style.display = "none";
+        document.getElementById("spotify-button").style.display = "block";
     }
 }, 1000);
+
 

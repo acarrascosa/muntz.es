@@ -48,31 +48,33 @@
 				<li><a dontlook="./un-instante.html" class="locked">Un Instante<i class="fas fa-lock"></i></a></li>
 			</ul>
 			<div class="social-links">
-				<a href="https://spotify.com" target="_blank"><i class="fab fa-spotify"></i></a>
-				<a href="https://bandcamp.com" target="_blank"><i class="fab fa-bandcamp"></i></a>
-				<a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-				<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-				<a href="https://x.com" target="_blank"><i class="fab fa-twitter"></i></a>
+				<a href="https://open.spotify.com/artist/4r8sQFACB010CoU30E9yio?si=28quLC5hRSqoiaMIQ32luA" target="_blank"><i class="fab fa-spotify"></i></a>
+				<a href="https://muntzband.bandcamp.com" target="_blank"><i class="fab fa-bandcamp"></i></a>
+				<a href="https://facebook.com/muntzband" target="_blank"><i class="fab fa-facebook"></i></a>
+				<a href="https://instagram.com/muntzband" target="_blank"><i class="fab fa-instagram"></i></a>
+				<a href="https://x.com/muntzband" target="_blank"><i class="fab fa-twitter"></i></a>
 			</div>
 		</nav>
 	</div>
 	
     <div class="banner">
-        <div class="content">
-            <img class="title" src="2024_files/media/efdi.png" alt="El Frío del Invierno">
-        </div>
+		<div class="content">
+			<img class="title" src="2024_files/media/efdi.png" alt="El Frío del Invierno">
+		</div>
 		<div class="countdown">
 			<span id="days">00</span>d :
 			<span id="hours">00</span>h :
 			<span id="minutes">00</span>m :
 			<span id="seconds">00</span>s
 		</div>
-		<!-- <div class="botones">
-			<button class="btnSpotify" type="button"><span><a id="linkSpotify" class="unselectable" href="https://open.spotify.com/intl-es/artist/4r8sQFACB010CoU30E9yio?si=eOrsHf7nR8qeKzpFtRyJ2g" target="_blank">Spotify</a></span></button>
-			<button class="btnYoutube" type="button"><span><a id="linkYoutube" class="unselectable" href="https://www.youtube.com/muntzband" target="_blank">Youtube</a></span></button>
-			<button class="btnInstagram" type="button"><span><a id="linkInstagram" class="unselectable" href="https://www.instagram.com/muntzband" target="_blank">Instagram</a></span></button>
-		</div> -->
-    </div>
+		<div id="spotify-button" style="display: none;">
+			<a href="https://open.spotify.com/artist/your-artist-id" target="_blank" class="spotify-link">
+				<i class="fab fa-spotify"></i>
+				Escucha en Spotify
+			</a>
+		</div>
+	</div>
+	
     <audio id="background-audio" src="2024_files/media/sonar.mp3"></audio>
     <audio id="intro-audio" src="2024_files/media/efdi.mp3"></audio>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

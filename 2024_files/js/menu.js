@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function() {
             } else if (href.includes('x.com')) {
                 link.setAttribute('href', 'twitter://user?screen_name=muntzband');
             }
-            // Bandcamp no necesita cambios
         });
     }
 });
