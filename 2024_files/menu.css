@@ -1,3 +1,34 @@
+/* General Styles */
+html, body {
+    scroll-snap-type: y mandatory;
+    height: 100%;
+    overflow-y: visible;
+    scroll-behavior: smooth !important;
+    letter-spacing: 1px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #333333; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #2f2f2f; 
+}
+
 @media (min-width: 1200px) {
     .side-menu {
         width:20vw;

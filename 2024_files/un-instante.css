@@ -130,7 +130,7 @@ a {
 	content: '';
 	position: absolute;
 	inset: 0;
-	/* background-image: url(media/un-encuentro-bg.jpg); */
+	background-image: url(media/un-instante-bg.jpg);
 	background-color: #000;
 	background-size: cover;
 	background-position: center;
