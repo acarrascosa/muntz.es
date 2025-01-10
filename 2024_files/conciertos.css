@@ -386,16 +386,17 @@ a {
 
 /* Contenedor de enlaces */
 .concert-list {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     color: white;
     padding: min(5rem, 8%);
     border-radius: 10px;
     margin: 2rem auto;
     list-style: none;
-    max-width: 600px;
+    width: min(600px, 100vw);
     text-align: center;
 }
+
 
 /* Enlaces dentro del contenedor */
 .concert-list li a {
@@ -415,7 +416,7 @@ a {
 
 /* Enlace deshabilitado */
 .concert-list li a.disabled {
-    color: gray;
+    color: rgb(209, 209, 209);
     text-decoration: line-through;
     pointer-events: none;
 }
