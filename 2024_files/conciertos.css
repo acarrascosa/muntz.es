@@ -414,9 +414,26 @@ a {
     color: #FFD700; /* Amarillo dorado */
 }
 
-/* Enlace deshabilitado */
-.concert-list li a.disabled {
-    color: rgb(209, 209, 209);
+/* Enlaces deshabilitados (por fecha pasada o agotado) */
+.concert-list li a.disabled,
+.concert-list li a.soldout {
+    color: rgb(238, 238, 238);
     text-decoration: line-through;
     pointer-events: none;
+    position: relative; /* Necesario para el pseudo-elemento */
+}
+
+/* Etiqueta SOLD OUT */
+.concert-list li a.soldout::after {
+    content: 'SOLD OUT';
+    position: absolute;
+    background-color: #000;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    width: 55px;
+    margin-left: 10px;
+    color: #fff;
+    padding: 2px 5px;
+    pointer-events: none;
+    text-align: center;
 }
