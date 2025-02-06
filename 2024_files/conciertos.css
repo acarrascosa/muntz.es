@@ -361,6 +361,20 @@ a {
 		width: 100vw;
 		transition: width 2s ease-in-out;
 	}
+	/* Etiqueta SOLD OUT */
+	.concert-list li a.soldout::after {
+		content: 'SOLD OUT';
+		position: absolute;
+		background-color: #000;
+		border-radius: 5px;
+		font-size: 0.4rem;
+		width: 55px;
+		margin-left: 10px;
+		color: #fff;
+		padding: 2px 5px;
+		pointer-events: none;
+		text-align: center;
+	}
 }
 
 @media (min-width: 601px) and (max-width: 1200px) {
@@ -410,7 +424,7 @@ a {
 
 /* Hover en los enlaces */
 .concert-list li a:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     color: #FFD700; /* Amarillo dorado */
 }
 
@@ -419,7 +433,6 @@ a {
 .concert-list li a.soldout {
     color: rgb(238, 238, 238);
     text-decoration: line-through;
-    pointer-events: none;
     position: relative; /* Necesario para el pseudo-elemento */
 }
 
@@ -429,11 +442,18 @@ a {
     position: absolute;
     background-color: #000;
     border-radius: 5px;
-    font-size: 0.8rem;
-    width: 55px;
-    margin-left: 10px;
+    font-size: 1.2rem;
+    width: 120px;
+    margin: 5px;
+    left: 38%;
+    transform: rotate(-12deg);
     color: #fff;
-    padding: 2px 5px;
     pointer-events: none;
     text-align: center;
+    transition: transform 150ms ease-in-out;
+}
+
+/* Efecto en hover: mayor rotación */
+.concert-list li a.soldout:hover::after {
+    transform: rotate(-8deg) scale(1.05);
 }
